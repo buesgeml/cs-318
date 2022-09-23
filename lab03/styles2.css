@@ -1,3 +1,4 @@
 h1{text-align: center;}
+/*On line 3 you want to use a + instead of a > so h2 + p. That will select a paragraph after the h2. Otherwise you are selecting a paragraph in a h2 which isn't valid.*/
 h2>p{margin-left: 1rem;}
 body{padding: 1rem;}

@@ -1,0 +1,14 @@
+main{background-image:url(images/background-louie.jpg);
+background-size:cover;
+background-position: 0rem;
+background-repeat: no-repeat;}
+main>p{font-size: x-large;
+    color: aliceblue;
+    padding-left: 1rem;}
+    main>h1{color: aliceblue;
+    padding-left: 1rem;}
+header{background-color: beige;
+color: black;}
+html{background-color: beige;}
+header>nav>a:hover{color: aliceblue;
+background-color: black;}

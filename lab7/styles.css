@@ -33,7 +33,9 @@ justify-content: center;}
 nav{flex-basis: 100%;
 text-align: center;}
 main{padding: 1rem;}
-main img{}
+main img{max-width 100%;
+margin .5rem 0;}
+
 
 
 

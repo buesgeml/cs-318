@@ -6,10 +6,8 @@ h1{
     color: blueviolet;
     background-color: black;
     font-family: 'Times New Roman', Times, serif;}
-/*You want a comma in between each heading. So h1, h2, h3. Otherwise you are selecting an h3 that is in a h2 which is in a h1. Which isn't valid*/
-h1 h2 h3{font-size: 3rem;}
-h1 h2 h3{font-weight: 300;}
+h1, h2, h3{font-size: 3rem;}
+h1, h2, h3{font-weight: 300;}
 ul>li{text-align: center;}
-/*On line 14 you want to use a + instead of a > so h1 + p. That will select a paragraph after the h1. Otherwise you are selecting a paragraph in a h1 which isn't valid.*/
-h1>p{margin-left: 1rem;}
+h1+p{margin-left: 1rem;}
 body{padding: 1rem;}

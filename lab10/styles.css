@@ -1,0 +1,27 @@
+h2>.drinks{background-image: url(images/opaquedrinks.svg);
+background-position: top;
+background-size: cover;}
+header{background-color: #3E6A58;
+padding-bottom: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+align-items: center;}
+nav>a{background-color: white;
+color: #3E6A58;
+padding: .5rem;}
+nav>a:hover{background-color: #3E6A58;
+color: white;}
+#ourstory{background-color: #3E6A58;
+padding: .5rem;
+color: white;
+}
+body{font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#menu{background-color: #3E6A58;
+color: white;
+padding: .5rem;
+background-image: url(images/opaquemenu.svg);
+background-size: cover;
+background-repeat: no-repeat;}
+#whiteborder{color: white;}
+

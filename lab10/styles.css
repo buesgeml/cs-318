@@ -23,5 +23,27 @@ padding: .5rem;
 background-image: url(images/opaquemenu.svg);
 background-size: cover;
 background-repeat: no-repeat;}
-#whiteborder{color: white;}
+.whiteborder{color: white;}
+.flex-container{display: flex;
+justify-content: space-around;}
+#drinks{background-image: url(images/opaquedrinks.svg);
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 4rem;
+margin-top: 10rem;}
+#ourstory{background-image: url(images/contactopaque.png);
+background-size: 55rem;
+background-repeat: no-repeat;}
+nav{border: 5px solid white;
+padding: 3px;}
+.ourstory{border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+h2{font-size:xx-large;}
+.ourstory{font-style: oblique;}
+.drinks{border-top: 5px solid white;}
+
+
+
+
 

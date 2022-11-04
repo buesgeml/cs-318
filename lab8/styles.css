@@ -56,8 +56,8 @@ section>h2{position: relative;
 .accordion{cursor: pointer;}
 article{display: none;}
 article.show{display: block;}
-section span{transform: rotate(0);}/*This should be 180deg instead of 0*/
-/*Missing span.rotate{transform:rotate(0);} */
+section span{transform: rotate(180deg);}
+span.rotate{transform:rotate(0);}
 .sidelink{background-color: #27213C;
 color: #fff;
 padding: 1rem 2rem;
@@ -83,5 +83,5 @@ section>h2{border-bottom: 2rem solid #e2512d;}
     /*Missing Missing left and top with a rem value*/
 }
     article{max-width: 60rem;
-    margin: 0 auto;}
+    margin: 0 auto;}}
 /*Missing a } here for the media query*/

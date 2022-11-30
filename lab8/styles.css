@@ -80,7 +80,7 @@ section>h2{border-bottom: 2rem solid #e2512d;}
     top: 26rem;
     left: 48%;}
     nav{position: absolute;
-        position: top 100rem;
-        position: left 0rem;}
+        position: top 100rem;/*should be top:1rem;*/ 
+        position: left 0rem;}/*should be left:0;*/
     article{max-width: 60rem;
     margin: 0 auto;}}

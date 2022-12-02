@@ -21,9 +21,9 @@ padding: .5rem 1rem;}
 color: #0f0f0f;
 padding: .5rem 1rem;
 display: inline-block;
-margin-top: 1rem;
+margin-top: .5rem;
 margin-right: .5rem;
-margin-bottom: 2;
+margin-bottom: 0;
 margin-left: 0;
 position: relative;
 transition: .2s ease-in-out, left .5s ease-in-out;}

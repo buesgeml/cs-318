@@ -9,7 +9,7 @@
     <script src="scripts.js"></script>
 </head>
 <body>
-    <div class="parallax"><img src="images/grindelwald.jpg"></div>
+    <div class="parallax"><img src="images/grindelwald.jpg" alt=grindelwald></div>
     <div class="overlay" class="toggle-nav"></div>
     <header>
         <div class="hamburger" onclick="toggleNav()">
@@ -42,8 +42,8 @@
         <section class="gallery" id="gallery">
             <h3>Gallery</h3>
             <div>
-                <img src="Images/gallery/alpine-panorama.jpg" alt="Alpine Panorama">
-                <img src="Images/Gallery/Alpine" alt="Alpine">
+                <img src="Images/gallery/alpine-panorama.jpg" class="panorama" alt="Alpine Panorama">
+                <img src="Images/Gallery/alpine2.jpeg" alt="Alpine">
                 <img src="images/gallery/eiger2.jpg" alt="eiger">
                 <img src="images/gallery/gorge-rock.jpg" alt="gorge rock">
                 <img src="images/gallery/panoramic.jpg" alt="panoramic">
@@ -77,7 +77,7 @@
                 <h3>Contact</h3>
                 <label id="text">Name</label>
                 <input type="text" id="name">
-                <label id="email">Email</label>
+                <label>Email</label>
                 <input type="email" id="email">
                 <textarea>Type message here...</textarea>
                 <input type="submit">
@@ -85,7 +85,7 @@
         </section>
     </main>
     <footer>
-        <span>"Copyright <script>document.write(new Date().getFullYear());</script>"</span>
+        <span>Copyright <script>document.write(new Date().getFullYear());</script></span>
         <div class="social">
             <a href="https://fb.com/"><img src="images/facebook.svg" alt="facebook"></a>
             <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>

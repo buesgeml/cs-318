@@ -1,0 +1,15 @@
+header>img{max-width: 40%;}
+.hamburger{width: 40px;
+padding: .5rem;}
+.hamburger hr{margin: .75rem 0;
+border: 2px solid #f9545b;}
+header{display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fdf6e4;}
+header nav.show{left: 0;}
+header nav{left: -100%;
+transition-property: right;
+transition-duration: .5s;
+transition-timing-function: ease-in-out;}
+

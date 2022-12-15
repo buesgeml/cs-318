@@ -1,0 +1,25 @@
+body{
+    background-color: #FEBBCF;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact, .title, .navigate{
+    text-align: center;
+}
+.contact, .navigate{
+    background-color: black;
+    color: #FEBBCF;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.contact:hover, .navigate:hover{
+    background-color: #FEBBCF;
+    stroke: black;
+    stroke-width: .2rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
